@@ -34,14 +34,14 @@
   </header>
 
   <!-- Contenuto Principale (Hero Section) -->
-  <main class="max-w-4xl mx-auto px-6 py-12 text-center space-y-10 flex-1 flex flex-col justify-center">
-    <div class="space-y-6">
+  <main class="max-w-4xl mx-auto px-6 py-12 text-center space-y-10 flex-1 flex flex-col justify-center items-center">
+    <div class="space-y-6 w-full flex flex-col items-center">
       <div class="inline-block px-4 py-1.5 rounded-full bg-slate-900 border border-slate-800 text-amber-400 text-xs font-semibold tracking-wide uppercase mb-2">
         ✨ Software Ufficiale per Windows
       </div>
       
-      <!-- Nome del software in evidenza -->
-      <div class="space-y-2">
+      <!-- Nome del software in evidenza e centrato -->
+      <div class="space-y-2 text-center">
         <h2 class="text-xs md:text-sm font-bold uppercase tracking-[0.25em] text-amber-400/90">
           Roulette Distance Analyzer Pro
         </h2>
@@ -57,25 +57,27 @@
     </div>
 
     <!-- Pulsanti Azione (Download + Donazione PayPal) -->
-    <div class="flex flex-col sm:flex-row justify-center items-center gap-4 pt-2">
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-4 pt-2 w-full">
       <!-- Pulsante Download -->
       <a href="https://github.com/Muzio29/roulette-analyzer/releases/download/untagged-6c1cf5bb8308b0ede81a/Roulette.Distance.Analyzer.Setup.1.0.0.exe" class="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-base rounded-2xl shadow-xl shadow-amber-500/20 transition transform hover:-translate-y-0.5 flex items-center justify-center gap-3 group">
         <span class="text-2xl group-hover:scale-110 transition-transform">📥</span>
         <span>Scarica per Windows (.exe)</span>
       </a>
 
-      <!-- Pulsante Donazione PayPal con frase motivazionale integrata -->
-      <div class="w-full sm:w-auto flex flex-col items-center gap-1.5">
+      <!-- Pulsante Donazione PayPal con frase motivazionale su due righe e carattere aumentato -->
+      <div class="w-full sm:w-auto flex flex-col items-center gap-2">
         <a href="https://www.paypal.com/donate/?hosted_button_id=9VAQSPZTPVHBQ" target="_blank" class="w-full px-6 py-4 bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700/80 hover:border-amber-500/50 font-bold text-base rounded-2xl shadow-lg transition flex items-center justify-center gap-2.5 group">
           <span class="text-xl">☕</span>
           <span class="group-hover:text-amber-400 transition-colors">Offrimi un caffè</span>
         </a>
-        <span class="text-[11px] text-slate-400 font-medium italic">"Il codice si scrive con la passione, ma vive grazie al tuo supporto."</span>
+        <span class="text-xs md:text-sm text-slate-300 font-medium italic text-center block max-w-xs leading-relaxed">
+          "Il codice si scrive con la passione,<br>ma vive grazie al tuo supporto."
+        </span>
       </div>
     </div>
 
     <!-- Griglia Caratteristiche -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-8 text-left">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-8 text-left w-full">
       <div class="bg-slate-900/60 border border-slate-800 p-6 rounded-2xl space-y-3 hover:border-amber-500/40 transition">
         <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl font-bold">🎯</div>
         <h4 class="font-bold text-slate-100 text-base">9 Settori Simmetrici</h4>
